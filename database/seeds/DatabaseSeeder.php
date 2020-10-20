@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
         $this->call(RazasTableSeeder::class);
         $this->call(AscendenciaDraconicaTableSeeder::class);
         $this->call(ClasesTableSeeder::class);
+        $this->call(UserTableSeeder::class);
     }
 }

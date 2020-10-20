@@ -48,3 +48,9 @@ Route::get('/ascendencia-draconica/{id}', 'AscendenciaDraconicaController@show')
 
 Route::get('/clases', 'ClaseController@index');
 Route::get('/clases/{id}', 'ClaseController@show');
+
+//USUARIOS
+
+Route::get('/users', 'UserController@index');
+Route::get('/users/{id}', 'UserController@show');
+Route::post('/users', 'UserController@store');
